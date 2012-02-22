@@ -10,13 +10,13 @@ License:          GPL-2
 URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
 Source0:          http://cran.r-project.org/src/contrib/%{packname}_%{version}.tar.gz
 BuildArch:        noarch
-Requires:         R-core
-Requires:         R-reshape R-grid R-proto 
-Requires:         R-plyr R-splines R-MASS R-RColorBrewer R-digest R-colorspace 
-Requires:         R-quantreg R-Hmisc R-mapproj R-maps R-hexbin R-gpclib R-maptools 
-BuildRequires:    R-devel Rmath-devel texlive-collection-latex R-reshape R-grid R-proto
-BuildRequires:    R-plyr R-splines R-MASS R-RColorBrewer R-digest R-colorspace 
-BuildRequires:    R-quantreg R-Hmisc R-mapproj R-maps R-hexbin R-gpclib R-maptools 
+Requires:         R-core R-reshape R-grid R-proto  R-plyr R-splines R-MASS
+Requires:         R-RColorBrewer R-digest R-colorspace  R-quantreg R-Hmisc
+Requires:         R-mapproj R-maps R-hexbin R-gpclib R-maptools
+BuildRequires:    R-devel Rmath-devel texlive-collection-latex R-reshape
+BuildRequires:    R-grid R-proto R-plyr R-splines R-MASS R-RColorBrewer
+BuildRequires:    R-digest R-colorspace R-quantreg R-Hmisc R-mapproj R-maps
+BuildRequires:    R-hexbin R-gpclib R-maptools
 
 %description
 An implementation of the grammar of graphics in R. It combines the
