@@ -2,13 +2,13 @@
 %global rlibdir  %{_datadir}/R/library
 
 Name:             R-%{packname}
-Version:          0.8.9
-Release:          2
+Version:          0.9.3.1
+Release:          1
 Summary:          An implementation of the Grammar of Graphics
 Group:            Sciences/Mathematics
 License:          GPL-2
 URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
-Source0:          http://cran.r-project.org/src/contrib/%{packname}_%{version}.tar.gz
+Source0:          http://cran.r-project.org/src/contrib/ggplot2_0.9.3.1.tar.gz
 BuildArch:        noarch
 Requires:         R-core R-reshape R-grid R-proto  R-plyr R-splines R-MASS
 Requires:         R-RColorBrewer R-digest R-colorspace  R-quantreg R-Hmisc
@@ -53,3 +53,4 @@ rm -f %{buildroot}%{rlibdir}/R.css
 %{rlibdir}/%{packname}/R
 %{rlibdir}/%{packname}/data
 %{rlibdir}/%{packname}/help
+
