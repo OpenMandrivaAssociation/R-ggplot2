@@ -7,7 +7,7 @@ Release:          2
 Summary:          An implementation of the Grammar of Graphics
 Group:            Sciences/Mathematics
 License:          GPL-2
-URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
+URL:              https://cran.r-project.org/web/packages/%{packname}/index.html
 Source0:          http://cran.r-project.org/src/contrib/%{packname}_%{version}.tar.gz
 BuildArch:        noarch
 Requires:         R-core R-reshape R-grid R-proto  R-plyr R-splines R-MASS
